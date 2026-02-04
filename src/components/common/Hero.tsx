@@ -32,18 +32,18 @@ const Hero = () => {
         <Navbar />
         <div className="absolute w-full h-full overflow-hidden z-0">
           <div
-            className="absolute rounded-full blur-[100px] w-[150px] h-[150px] sm:w-[180px] sm:h-[200px] md:w-[214px] md:h-[220px] -left-[60px] sm:-left-[70px] md:-left-[80px]"
+            className="absolute rounded-full blur-[150px] w-[150px] h-[150px] sm:w-[180px] sm:h-[200px] md:w-[214px] md:h-[500px] -left-[60px] sm:-left-[70px] md:-left-[80px]"
             style={{
               background: '#D9D42E',
-              top: '30%',
+              top: '50%',
               transform: 'translateY(-50%)'
             }}
           />
           <div
-            className="absolute rounded-full blur-[100px] w-[150px] h-[150px] sm:w-[180px] sm:h-[200px] md:w-[214px] md:h-[220px] -right-[60px] sm:-right-[70px] md:-right-[80px]"
+            className="absolute rounded-full blur-[150px] w-[150px] h-[150px] sm:w-[180px] sm:h-[200px] md:w-[214px] md:h-[500px] -right-[60px] sm:-right-[70px] md:-right-[80px]"
             style={{
               background: '#0055E9',
-              top: '30%',
+              top: '50%',
               transform: 'translateY(-50%)'
             }}
           />
@@ -56,7 +56,13 @@ const Hero = () => {
 
           </div>
 
-          <div className="mb-4 sm:mb-5 md:mb-6">
+          <div className="">
+            <div className="flex justify-center items-center mb-6">
+              <div className="bg-white rounded-[30px] px-12 py-2 inline-flex items-center gap-4 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
+                <span className="w-3 h-3 bg-[#2525B9] rounded-full flex-shrink-0" />
+                <span className="text-lg text-[#00000080] font-medium font-poppins">A divine energy</span>
+              </div>
+            </div>
             <AnimatedText
               text="Guided by Faith. Built"
               delay={300}
