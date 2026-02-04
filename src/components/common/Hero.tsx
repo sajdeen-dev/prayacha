@@ -6,7 +6,7 @@ import swapDotLogo from '../../assets/icons/swapDotLogo.svg'
 import rightChevron from '../../assets/icons/rightChevron.svg'
 import Navbar from './Navbar'
 
-const Hero = () => {
+const  Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [shouldAnimateParagraph, setShouldAnimateParagraph] = useState(false)
   const [logoLoaded, setLogoLoaded] = useState(false)
@@ -43,7 +43,7 @@ const Hero = () => {
             className="absolute rounded-full blur-[150px] w-[150px] h-[150px] sm:w-[180px] sm:h-[200px] md:w-[214px] md:h-[500px] -right-[60px] sm:-right-[70px] md:-right-[80px]"
             style={{
               background: '#0055E9',
-              top: '50%',
+              top: '50%', 
               transform: 'translateY(-50%)'
             }}
           />
