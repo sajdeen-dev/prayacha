@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../components/common/Hero'
 
 const Home = () => {
-  return (
+  return ( 
     <>
     <Hero />
     </>
