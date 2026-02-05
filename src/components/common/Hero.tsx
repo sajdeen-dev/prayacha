@@ -25,7 +25,7 @@ const  Hero = () => {
     }, delayMs)
 
   }
-
+ 
   return ( 
     <>
       <div className="min-h-screen flex flex-col relative bg-[#EFF9FF]">
