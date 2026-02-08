@@ -173,8 +173,8 @@ const  Hero = () => {
             }
           `}</style>
         </div>
-        <p className='text-center text-black/60 mb-4 text-[14px] sm:text-[15px] md:text-[16px] font-poppins'>A Prayacha Ventures Private Limited Product</p>
-        <Footer />
+        {/* <p className='text-center text-black/60 mb-4 text-[14px] sm:text-[15px] md:text-[16px] font-poppins'>A Prayacha Ventures Private Limited Product</p> */}
+        {/* <Footer /> */}
       </div>
       <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
