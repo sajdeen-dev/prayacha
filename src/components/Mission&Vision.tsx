@@ -64,7 +64,7 @@ const MissionVision = () => {
             className={`text-[26px] leading-[1.3] xs:text-[28px] sm:text-3xl md:text-4xl 
                        lg:text-5xl font-semibold text-black font-poppins mb-6 sm:mb-10
                        reveal-text ${isVisible ? 'reveal-text-active' : ''}`}
-            style={{animationDelay: '0.1s'}}
+            style={{animationDelay: '0.6s'}}
           >
             Our Vision & Mission
           </h2>
@@ -75,24 +75,24 @@ const MissionVision = () => {
                        md:text-[18px] leading-relaxed max-w-4xl mx-auto"
           >
             <p className={`mb-4 reveal-text ${isVisible ? 'reveal-text-active' : ''}`}
-               style={{animationDelay: '0.2s'}}>
+               style={{animationDelay: '0.4s'}}>
               The journey of Prayacha Ventures did not begin in a boardroom; it began with a divine calling.
             </p>
 
             <p className={`mb-4 reveal-text ${isVisible ? 'reveal-text-active' : ''}`}
-               style={{animationDelay: '0.3s'}}>
+               style={{animationDelay: '0.5s'}}>
               Three years ago, our founder stood at a crossroads. After years of witnessing the adulteration
               in the food we eat and the lack of trust in the online world, a vision began to take shape.
             </p>
 
             <p className={`mb-4 reveal-text ${isVisible ? 'reveal-text-active' : ''}`}
-               style={{animationDelay: '0.4s'}}>
+               style={{animationDelay: '0.6s'}}>
               One night, in a vivid and powerful dream, Lord Sri Tirumala Venkateshwara Swamy appeared.
               The divine message was clear: Move forward. The path is blessed.
             </p>
 
             <p className={`reveal-text ${isVisible ? 'reveal-text-active' : ''}`}
-               style={{animationDelay: '0.5s'}}>
+               style={{animationDelay: '0.7s'}}>
               Thus, Prayacha was born—not just as a business, but as a duty (Seva) to restore purity and
               trust in society.
             </p>
@@ -110,7 +110,7 @@ const MissionVision = () => {
                            p-6 md:py-8 lg:py-12 flex flex-col items-center text-center 
                            transition-all duration-300 hover:shadow-lg hover:-translate-y-1
                            card-reveal ${isVisible ? 'card-reveal-active' : ''}`}
-                style={{animationDelay: `${0.6 + (index * 0.15)}s`}}
+                style={{animationDelay: `${1 + (index * 0.2)}s`}}
               >
                 {/* Icon */}
                 <div
@@ -160,7 +160,7 @@ const MissionVision = () => {
           opacity: 0;
           transform: translateY(30px);
           clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-          transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+          transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .reveal-text.reveal-text-active {
@@ -173,8 +173,8 @@ const MissionVision = () => {
         .card-reveal {
           opacity: 0;
           transform: translateY(50px) scale(0.9);
-          transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
-                      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+          transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1),
+                      transform 1s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .card-reveal.card-reveal-active {

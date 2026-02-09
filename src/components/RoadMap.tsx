@@ -357,6 +357,43 @@ export default () => {
           opacity: 1;
           transform: scale(1) rotate(0deg);
         }
+
+        /* === HOVER SCALE EFFECTS === */
+
+        .phase-item {
+          transition: transform 0.3s ease-in-out;
+        }
+
+        .phase-item:hover {
+          transform: scale(1.02);
+        }
+
+        .phase-circle {
+          transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .phase-circle:hover {
+          transform: scale(1.1);
+          box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+        }
+
+        .icon-container {
+          transition: transform 0.3s ease-in-out;
+        }
+
+        .icon-container:hover {
+          transform: scale(1.15) rotate(10deg);
+        }
+
+        .arc-left,
+        .arc-right {
+          transition: transform 0.3s ease-in-out;
+        }
+
+        .arc-left:hover,
+        .arc-right:hover {
+          transform: rotate(-45deg) scale(1.1);
+        }
         
         /* Mobile specific adjustments */
         @media (max-width: 639px) {
