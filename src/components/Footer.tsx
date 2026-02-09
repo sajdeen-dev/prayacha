@@ -7,7 +7,9 @@ const Footer: React.FC = () => {
             <div className="container mx-auto px-4 sm:px-6 md:px-6 lg:px-32 max-w-full">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 sm:mb-6 md:mb-8">
                     <div className="mb-4 sm:mb-6 md:mb-0">
-
+                        <h1 className='text-white text-[20px] font-poppins font-medium'>
+                         PRAYACHA VENTURES (The Corporate Identity)
+                        </h1>
                     </div>
 
                     <div className="flex items-center space-x-4 sm:space-x-6">
@@ -95,7 +97,7 @@ const Footer: React.FC = () => {
 
                 <div className="flex flex-col md:flex-row justify-between items-center pt-4 sm:pt-6 border-t border-gray-800 gap-3 md:gap-0">
                     <p className="text-xs sm:text-sm md:text-[16px] text-white/70 text-center md:text-left font-poppins">
-                        Copyright © 2025 TITANIA. All rights reserved
+                    Copyright © 2023  PRAYACHA VENTURES. All rights reserved
                     </p>
                     <p className="text-xs sm:text-sm text-gray-400 flex items-center font-poppins">
                         Made with <span className="text-red-500 mx-1">❤</span> by{" "}

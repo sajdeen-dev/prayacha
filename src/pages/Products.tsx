@@ -1,15 +1,16 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
+import Products from '../components/common/Products'
 
-const Products = () => {
+const ProductsPage = () => {
   return (
     <>
-      <Navbar />
-      <div className="min-h-screen flex items-center justify-center bg-[#EFF9FF]">
-        <h1 className="text-3xl font-semibold text-gray-800">Products - Coming Soon</h1>
+
+      <div className="min-h-screen flex items-center justify-center ">
+        <Products />
       </div>
     </>
   )
 }
 
-export default Products
+export default ProductsPage

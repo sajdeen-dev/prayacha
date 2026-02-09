@@ -3,13 +3,13 @@ import cta2 from '../assets/images/banner.png'
 
 const Banner: React.FC = () => {
   return (
-    <div className="relative w-full h-64 md:h-80 bg-gray-900 overflow-hidden group">
+    <div className="relative w-full h-64 md:h-80 bg-black overflow-hidden group">
       <div 
         className="absolute inset-0 z-0 transform scale-100 group-hover:scale-110 transition-transform duration-1000 ease-out" 
         style={{
           backgroundImage: `url(${cta2})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'bottom'
+          backgroundSize: 'contain',
+          // backgroundPosition: 'bottom'
         }}
       ></div>
       
